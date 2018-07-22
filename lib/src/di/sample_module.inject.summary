@@ -1,0 +1,50 @@
+{
+  "asset": "asset:flutter_app01/lib/src/di/sample_module.dart",
+  "summary": {
+    "injector": [],
+    "module": [
+      {
+        "name": "SampleModule",
+        "providers": [
+          {
+            "name": "provideEmployee",
+            "kind": "method",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:flutter_app01/lib/src/employee.dart#Employee",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": false,
+            "asynchronous": false,
+            "dependencies": [
+              {
+                "lookupKey": {
+                  "root": "asset:flutter_app01/lib/src/name.dart#Name",
+                  "qualifier": null
+                },
+                "isProvider": false
+              }
+            ]
+          },
+          {
+            "name": "provideName",
+            "kind": "method",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:flutter_app01/lib/src/name.dart#Name",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": false,
+            "asynchronous": false,
+            "dependencies": []
+          }
+        ]
+      }
+    ],
+    "injectable": []
+  }
+}

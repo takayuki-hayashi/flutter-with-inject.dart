@@ -1,0 +1,31 @@
+{
+  "asset": "asset:flutter_app01/lib/src/di/sample_locator.dart",
+  "summary": {
+    "injector": [
+      {
+        "name": "SampleLocator",
+        "providers": [
+          {
+            "name": "getEmployee",
+            "kind": "method",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:flutter_app01/lib/src/employee.dart#Employee",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": false,
+            "asynchronous": false,
+            "dependencies": []
+          }
+        ],
+        "modules": [
+          "asset:flutter_app01/lib/src/di/sample_module.dart#SampleModule"
+        ]
+      }
+    ],
+    "module": [],
+    "injectable": []
+  }
+}
