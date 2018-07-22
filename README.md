@@ -2,5 +2,5 @@
 
 ## 実行方法
 
-任意の場所にまず(https://github.com/takayuki-hayashi/inject.dart)をチェックアウトして下さい。
+自動生成出力先を修正した[takayuki-hayashi/inject.dart](https://github.com/takayuki-hayashi/inject.dart)をチェックアウトして下さい。
 同一階層にこのリポジトリをcloneし、Android Studioなどでflutterアプリとして実行出来ます。
